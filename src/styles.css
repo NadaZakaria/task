@@ -1,0 +1,69 @@
+.font-12{
+    font-size: 12px;
+}
+
+.font-10{
+    font-size: 10px;
+}
+.font-8{
+    font-size: 8px;
+}
+.curser{
+    cursor: pointer;
+}
+
+.radius-6{
+    border-radius: 6px;
+}
+
+.radius-8{
+    border-radius: 10px;
+}
+
+.main-border{
+    border:0.5px #f2f2f2 solid;
+  }
+
+  .blue-color{
+    background-color:rgba(246, 250, 255, 1)
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.p-chips{
+    padding: 0px;
+  }
+  .p-chips .p-chips-multiple-container{
+    padding: 0;
+  }
+  .p-chips .p-chips-multiple-container .p-chips-token {
+    padding:2px 8px 2px 8px !important;
+    border-radius: 6px;
+    margin: 0;
+    font-size: 12px;
+   }
+   .p-chips-multiple-container {
+    flex-wrap: nowrap;
+   }
+   .p-panel.p-panel-toggleable .p-panel-header {
+    padding: 5px;
+  }
+  .p-panel .p-panel-header{
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  ul li {
+    margin-right: .25rem !important;
+    margin-left: .25rem !important;
+  }
+
+  @font-face {
+    font-family: 'Neo Sans Arabic';
+    src: url('../src/assets/fonts/Neo Sans Arabic Regular.ttf'), format('truetype');
+}
+
+body{
+
+  font-family: 'Neo Sans Arabic' , sans-serif;
+}

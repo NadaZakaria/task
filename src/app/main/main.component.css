@@ -1,0 +1,84 @@
+px
+h1, h2, h3 , h4 ,h5, h6, p{
+    margin: 0;
+}
+
+.card-header{
+    background-color:  rgba(255, 255, 255, 1);
+    position: sticky;
+    z-index: 9999999;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.color{
+    color: rgba(149, 153, 216, 1);
+    background-color: rgba(249, 249, 255, 1);
+}
+
+ .fIcon{
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+
+ }
+.sIcon{
+    width: 22.04px;
+    height: 22px;
+    border-radius: 6px;
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.tIcon{
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+}
+
+.thIcon , .fIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+}
+
+.fiIcon{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(232, 242, 255, 1)
+}
+
+.text::placeholder{
+    font-size: 10px;
+}
+
+.vIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.circleIcon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: dashed 1px gray;
+    background-color: rgba(246, 248, 250, 1)
+
+}
+.move{
+    left: 0;
+    bottom: -3px;
+}
+
+::ng-deep .p-chips-token:first-child {
+    background-color: #dd6c2038;
+    color: #dd6c20;
+  }
+  
+  ::ng-deep .p-chips-token:nth-child(2) {
+    background-color: #38A1691A;
+  }
+  
+  ::ng-deep .p-chips-token:nth-child(3) {
+    background-color: #5B4FE91A;
+  }
